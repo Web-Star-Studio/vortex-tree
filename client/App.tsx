@@ -10,6 +10,9 @@ import { useEffect } from "react";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import { ClerkProvider, SignIn, SignUp } from "@clerk/clerk-react";
+import SignInPage from "./pages/SignInPage";
+import {ptBR} from '@clerk/localizations'
+import { dark } from "@clerk/themes";
 
 const queryClient = new QueryClient();
 
@@ -27,16 +30,14 @@ const ClerkProviderWithRoutes = () => {
       routerPush={(to) => navigate(to)}
       routerReplace={(to) => navigate(to, { replace: true })}
       publishableKey={PUBLISHABLE_KEY}
+      localization={ptBR}
+      appearance={{baseTheme: dark }}
     >
       <Routes>
         <Route path="/" element={<Index />} />
         <Route
           path="/sign-in/*"
-          element={<SignIn routing="path" path="/sign-in" />}
-        />
-        <Route
-          path="/sign-up/*"
-          element={<SignUp routing="path" path="/sign-up" />}
+          element={<SignInPage />}
         />
         <Route path="*" element={<NotFound />} />
       </Routes>
