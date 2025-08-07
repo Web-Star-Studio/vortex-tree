@@ -1,12 +1,10 @@
-import MobileNavigation from "@/components/MobileNavigation";
 import { Button } from "@/components/ui/button";
 import { ArrowLeftCircle } from "lucide-react";
 import {SignIn} from '@clerk/clerk-react'
-import { Link, useNavigate } from "react-router-dom";
-import path from "path";
+import { Link,  } from "react-router-dom";
+
 
 export default function SignInPage() {
-    const navigate = useNavigate();
     
 
     return (

@@ -3,8 +3,8 @@ import { Post, ProfileData } from './types';
 export const mockPosts: Post[] = [
   {
     id: '1',
-    title: 'Building the Future of Web Development',
-    content: 'Exploring the latest trends in web development and how they shape the digital landscape. From progressive web apps to AI-powered experiences, the web is evolving at an unprecedented pace. This comprehensive guide dives deep into modern frameworks, performance optimization, and the tools that are shaping tomorrow\'s digital experiences.',
+    title: 'Como eu aprendi a programar',
+    content: 'Explorando as minhas experiências com programação e como eu aprendi a programar. Desde o começo, quando eu comecei a programar, até o momento atual, onde eu estou trabalhando com desenvolvimento de software.',
     date: '2024-01-15',
     readTime: '3 min read',
     tags: ['Web Development', 'Technology', 'Innovation'],
@@ -12,8 +12,8 @@ export const mockPosts: Post[] = [
   },
   {
     id: '2', 
-    title: 'The Art of Minimalist Design',
-    content: 'Why less is more in modern UI/UX design. Discover the principles that make interfaces both beautiful and functional. We explore the psychology behind clean designs, the impact of whitespace, and how minimalism can enhance user experience while maintaining brand identity.',
+    title: 'A arte de ser minimalista',
+    content: 'Por que menos é mais em design moderno. Descubra os princípios que fazem interfaces tanto belas quanto funcionais. Exploramos a psicologia por trás de designs limpos, o impacto do espaço em branco e como a minimalidade pode melhorar a experiência do usuário mantendo a identidade da marca.',
     date: '2024-01-10',
     readTime: '5 min read',
     tags: ['Design', 'UI/UX', 'Minimalism'],
@@ -21,8 +21,8 @@ export const mockPosts: Post[] = [
   },
   {
     id: '3',
-    title: 'Mastering Remote Work Culture',
-    content: 'Insights on building effective remote teams and maintaining productivity in distributed environments. From communication strategies to digital collaboration tools, learn how to foster a thriving remote culture that brings out the best in your team.',
+    title: 'Masterização de cultura remota',
+    content: 'Insights sobre como criar equipes efetivas e manter a produtividade em ambientes distribuídos. De estratégias de comunicação a ferramentas de colaboração digital, aprenda como fomentar uma cultura remota que traga o melhor de sua equipe.',
     date: '2024-01-05',
     readTime: '4 min read', 
     tags: ['Remote Work', 'Leadership', 'Productivity'],
@@ -30,8 +30,8 @@ export const mockPosts: Post[] = [
   },
   {
     id: '4',
-    title: 'The Psychology of Color in Branding',
-    content: 'How color choices influence user behavior and brand perception. A deep dive into color theory and practical applications in digital design. Understanding the emotional impact of colors can transform your brand\'s connection with users.',
+    title: 'A psicologia das cores na marca',
+    content: 'Como as escolhas de cores influenciam o comportamento do usuário e a percepção da marca. Um mergulho profundo na teoria das cores e aplicações práticas no design digital. Entender o impacto emocional das cores pode transformar a conexão da sua marca com os usuários.',
     date: '2023-12-28',
     readTime: '6 min read',
     tags: ['Branding', 'Psychology', 'Design'],
@@ -39,8 +39,8 @@ export const mockPosts: Post[] = [
   },
   {
     id: '5',
-    title: 'Scaling Startups: Lessons Learned',
-    content: 'Key insights from scaling multiple startups from idea to growth stage. What works, what doesn\'t, and everything in between. A practical guide to navigating the challenges of rapid growth while maintaining company culture and product quality.',
+    title: 'Escalando startups: Lições aprendidas',
+    content: 'Insights sobre como escalar várias startups desde a ideia até o estágio de crescimento. O que funciona, o que não funciona e tudo no meio. Um guia prático para navegar pelos desafios do crescimento rápido mantendo a cultura da empresa e a qualidade do produto.',
     date: '2023-12-20',
     readTime: '7 min read',
     tags: ['Startups', 'Entrepreneurship', 'Growth'],
@@ -48,8 +48,8 @@ export const mockPosts: Post[] = [
   },
   {
     id: '6',
-    title: 'AI and the Future of Design',
-    content: 'Exploring how artificial intelligence is revolutionizing the design process. From automated layouts to intelligent color suggestions, AI tools are becoming indispensable for modern designers.',
+    title: 'Inteligência artificial e o futuro do design',
+    content: 'Explorando como a inteligência artificial está revolucionando o processo de design. Desde layouts automatizados até sugestões de cores inteligentes, as ferramentas de IA estão se tornando indispensáveis para designers modernos.',
     date: '2023-12-15',
     readTime: '4 min read',
     tags: ['AI', 'Design', 'Future'],
@@ -58,10 +58,10 @@ export const mockPosts: Post[] = [
 ];
 
 export const profileData: ProfileData = {
-  name: 'Alex Johnson',
-  title: 'Product Designer & Developer',
-  bio: 'Passionate about creating beautiful, functional digital experiences. I bridge the gap between design and development, crafting products that users love.',
-  extendedBio: 'Currently building innovative solutions at the intersection of design and technology, with a focus on user-centered design and modern development practices.',
+  name: 'Guilherme Farias',
+  title: 'Software Engineer',
+  bio: 'Apaixonado por tecnologia e inovação. Trabalho com desenvolvimento de software desde 2015, com foco em JavaScript, TypeScript, React e Node.js.',
+  extendedBio: 'Atualmente trabalho como Software Engineer na empresa Viva Real, onde desenvolvo soluções para otimizar o processo de compra e venda de imóveis.',
   stats: {
     projects: 42,
     followers: 8500,
